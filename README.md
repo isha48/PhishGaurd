@@ -96,7 +96,7 @@ For full methodology, literature survey, architecture diagrams, and more:
 
 ---
 
-## 👥 Authors
+## 👥 Contributer
 
 | Name | Roll Number |
 |------|-------------|
@@ -106,11 +106,6 @@ For full methodology, literature survey, architecture diagrams, and more:
 
 👩‍🏫 **Supervisor:** Dr. Kakali Chatterjee, Associate Professor, Dept. of CSE, NIT Patna
 
----
 
-## 🛠️ Requirements
 
-Install dependencies using:
 
-```bash
-pip install -r requirements.txt
