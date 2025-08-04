@@ -96,7 +96,7 @@ For full methodology, literature survey, architecture diagrams, and more:
 
 ---
 
-## 👥 Contributer
+## 👥 Contributor
 
 | Name | Roll Number |
 |------|-------------|
