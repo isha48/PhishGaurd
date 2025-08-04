@@ -1,96 +1,116 @@
-Phishing Detection System for E-Commerce
-A deep learning-based phishing detection framework that accurately classifies malicious and legitimate websites using a robust set of URL-based features. This project was developed as part of a research initiative under the Department of Computer Science and Engineering, NIT Patna.
+# 🛡️ Phishing Detection System for E-Commerce
 
+> A machine learning and deep learning-based project for detecting phishing URLs, developed as part of a research project at **NIT Patna**.
 
-🔍 Project Overview
-Phishing attacks trick users into revealing sensitive personal information (like login credentials, credit card details) through fake websites. Our solution leverages machine learning and deep learning models to detect such threats in real-time by analyzing URLs and associated metadata.
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-Used-in Project-orange?logo=tensorflow)](https://www.tensorflow.org/)
 
-Core Models Used:
+---
 
-K-Nearest Neighbors (KNN)
+## 📌 Overview
 
-Artificial Neural Networks (ANN)
+Phishing is a major cybersecurity threat, especially in **e-commerce**, where users share sensitive data like login credentials and financial details. This project aims to **detect phishing websites in real time** using advanced machine learning and deep learning models.
 
-Convolutional Neural Networks (CNN)
+The system works by analyzing URL-based features and classifying them as either **phishing** or **legitimate** using models like **ANN, CNN, RNN, and KNN**.
 
-Recurrent Neural Networks (RNN)
+---
 
-🎯 Objectives
-Automatically classify URLs as phishing or legitimate.
+## 📂 Files Included
 
-Compare the effectiveness of different ML/DL classifiers.
+| File | Description |
+|------|-------------|
+| `Phishing_detection.ipynb` | Jupyter Notebook with complete code |
+| `PhishingGaurd Report.pdf` | Full research report with methodology and results |
+| `README.md` | You're reading it |
 
-Develop a scalable and real-time phishing detection framework.
+---
 
-Overcome issues such as zero-day attacks and adversarial evasion.
+## 🧠 Models Used
 
-📁 Repository Structure
-bash
-Copy
-Edit
-📦 Phishing-Detection
- ┣ 📜 Phishing_detection.ipynb    # Main code (Jupyter notebook)
- ┣ 📄 PhishingGaurd Report.pdf    # Full research report (with results, analysis, etc.)
- ┣ 📄 README.md                   # This file
-📊 Dataset Overview
-Total Records: 11,054
+- ✅ K-Nearest Neighbors (KNN)
+- ✅ Artificial Neural Network (ANN)
+- ✅ Convolutional Neural Network (CNN)
+- ✅ Recurrent Neural Network (RNN)
 
-Features: 32 (URL structure, domain registration, HTTPS presence, JavaScript behavior, etc.)
+---
 
-Label: -1 for phishing, 1 for legitimate
+## 📊 Dataset
 
-Oversampling was applied using SMOTE to balance the classes during training.
+- **Total Samples:** 11,054
+- **Classes:** Phishing (-1), Legitimate (1)
+- **Features:** 30+ extracted from URL structure, domain metadata, content behavior
 
-⚙️ Methodology
-Feature Extraction
+---
 
-Domain & URL structure
+## 🔁 Pipeline
 
-Metadata (SSL, DNS)
+1. **Data Preprocessing**
+   - SMOTE for balancing
+   - Correlation removal
+   - Normalization & Scaling
 
-JavaScript behavior, redirections
+2. **Model Training**
+   - Evaluated with Accuracy, Precision, Recall, F1-score
 
-Preprocessing
+3. **Model Evaluation**
+   - ANN achieved best accuracy (96.2%)
+   - CNN achieved near-perfect performance (99%)
 
-Data balancing using SMOTE
+---
 
-Feature scaling (Z-score, MinMax)
+## 🧪 Performance Summary
 
-Feature selection (Variance threshold)
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|----------|-----------|--------|----------|
+| KNN   | 95.4%    | 95.2%     | 95.3%  | 95.2%    |
+| ANN   | 96.2%    | 96.6%     | 95.7%  | 96.1%    |
+| CNN   | 99.0%    | ~         | ~      | ~        |
+| RNN   | ~96.0%   | ~96.1%    | ~95.9% | ~96.0%   |
 
-Model Training
+---
 
-Evaluated on KNN, ANN, CNN, RNN
+## 💡 Key Features
 
-Performance metrics: Accuracy, Precision, Recall, F1-Score
+- ✅ Deep learning-based phishing detection
+- ✅ Feature engineering from URLs (no third-party APIs)
+- ✅ Balanced training using SMOTE
+- ✅ Real-time classification-ready architecture
+- ✅ Interpretable outputs (confusion matrices, ROC curves)
 
-📈 Performance Summary
-Model	Accuracy	Precision	Recall	F1-Score
-KNN	95.4%	95.2%	95.3%	95.2%
-ANN	96.2%	96.6%	95.7%	96.1%
-CNN	99.0%	~	~	~
-RNN	~96.0%	~96.1%	~95.9%	~96.0%
+---
 
-🚀 Future Enhancements
-Deploy as a browser extension or email scanner.
+## 🔮 Future Enhancements
 
-Introduce federated learning for privacy-preserving training.
+- 🔗 Browser extension for real-time detection
+- 🌐 Federated learning for privacy-preserving detection
+- 🧠 Adaptive models to learn new phishing techniques
+- 🖼️ Screenshot-based CNN for visual phishing detection
 
-Incorporate visual phishing detection via page screenshots.
+---
 
-Add online learning capabilities to adapt to new phishing methods.
+## 📖 Report
 
-📄 Report
-For a detailed explanation of methodology, model architecture, evaluation metrics, and literature review, refer to PhishingGaurd Report.pdf.
+For full methodology, literature survey, architecture diagrams, and more:
+📄 **[PhishingGaurd Report.pdf](./PhishingGaurd%20Report.pdf)**
 
-🧠 Team Members
-Isha (2247026)
+---
 
-Sakshi Priya (2206274)
+## 👥 Authors
 
-Nikita Kumawat (2247027)
+| Name | Roll Number |
+|------|-------------|
+| **Isha** | 2247026 |
+| **Sakshi Priya** | 2206274 |
+| **Nikita Kumawat** | 2247027 |
 
-Under the guidance of:
-Dr. Kakali Chatterjee
-Associate Professor, Dept. of CSE
-NIT Patna
+👩‍🏫 **Supervisor:** Dr. Kakali Chatterjee, Associate Professor, Dept. of CSE, NIT Patna
+
+---
+
+## 🛠️ Requirements
+
+Install dependencies using:
+
+```bash
+pip install -r requirements.txt
