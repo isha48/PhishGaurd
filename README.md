@@ -1,4 +1,4 @@
-# 🛡️ Phishing Detection System for E-Commerce
+ Phishing Detection System for E-Commerce
 
 > A machine learning and deep learning-based project for detecting phishing URLs, developed as part of a research project at **NIT Patna**.
 
@@ -6,17 +6,13 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-Used-in Project-orange?logo=tensorflow)](https://www.tensorflow.org/)
 
----
-
-## 📌 Overview
+ Overview
 
 Phishing is a major cybersecurity threat, especially in **e-commerce**, where users share sensitive data like login credentials and financial details. This project aims to **detect phishing websites in real time** using advanced machine learning and deep learning models.
 
 The system works by analyzing URL-based features and classifying them as either **phishing** or **legitimate** using models like **ANN, CNN, RNN, and KNN**.
 
----
-
-## 📂 Files Included
+ Files Included
 
 | File | Description |
 |------|-------------|
@@ -24,26 +20,20 @@ The system works by analyzing URL-based features and classifying them as either 
 | `PhishingGaurd Report.pdf` | Full research report with methodology and results |
 | `README.md` | You're reading it |
 
----
-
-## 🧠 Models Used
+ Models Used
 
 - ✅ K-Nearest Neighbors (KNN)
 - ✅ Artificial Neural Network (ANN)
 - ✅ Convolutional Neural Network (CNN)
 - ✅ Recurrent Neural Network (RNN)
 
----
-
-## 📊 Dataset
+ Dataset
 
 - **Total Samples:** 11,054
 - **Classes:** Phishing (-1), Legitimate (1)
 - **Features:** 30+ extracted from URL structure, domain metadata, content behavior
 
----
-
-## 🔁 Pipeline
+ Pipeline
 
 1. **Data Preprocessing**
    - SMOTE for balancing
@@ -57,9 +47,7 @@ The system works by analyzing URL-based features and classifying them as either 
    - ANN achieved best accuracy (96.2%)
    - CNN achieved near-perfect performance (99%)
 
----
-
-## 🧪 Performance Summary
+ Performance Summary
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |-------|----------|-----------|--------|----------|
@@ -70,7 +58,7 @@ The system works by analyzing URL-based features and classifying them as either 
 
 ---
 
-## 💡 Key Features
+ Key Features
 
 - ✅ Deep learning-based phishing detection
 - ✅ Feature engineering from URLs (no third-party APIs)
@@ -78,25 +66,24 @@ The system works by analyzing URL-based features and classifying them as either 
 - ✅ Real-time classification-ready architecture
 - ✅ Interpretable outputs (confusion matrices, ROC curves)
 
+
+ Future Enhancements
+
+ Browser extension for real-time detection
+ Federated learning for privacy-preserving detection
+Adaptive models to learn new phishing techniques
+ Screenshot-based CNN for visual phishing detection
+
 ---
 
-## 🔮 Future Enhancements
-
-- 🔗 Browser extension for real-time detection
-- 🌐 Federated learning for privacy-preserving detection
-- 🧠 Adaptive models to learn new phishing techniques
-- 🖼️ Screenshot-based CNN for visual phishing detection
-
----
-
-## 📖 Report
+ Report
 
 For full methodology, literature survey, architecture diagrams, and more:
 📄 **[PhishingGaurd Report.pdf](./PhishingGaurd%20Report.pdf)**
 
 ---
 
-## 👥 Contributor
+Contributor
 
 | Name | Roll Number |
 |------|-------------|
@@ -104,7 +91,7 @@ For full methodology, literature survey, architecture diagrams, and more:
 | **Sakshi Priya** | 2206274 |
 | **Nikita Kumawat** | 2247027 |
 
-👩‍🏫 **Supervisor:** Dr. Kakali Chatterjee, Associate Professor, Dept. of CSE, NIT Patna
+ **Supervisor:** Dr. Kakali Chatterjee, Associate Professor, Dept. of CSE, NIT Patna
 
 
 
